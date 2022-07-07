@@ -1,0 +1,124 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 150px 100px 150px;
+    margin-bottom: 10px;
+}
+
+/* header */
+
+.logo{
+    width: auto;
+    float: left;
+    font-weight: bold;
+}
+ .navigation{
+    width: auto;
+    float: right;
+
+}
+.nav-links{
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+.nav-links li{
+    float: left;
+    height: 100px;
+}
+.nav-links li a{
+
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+/*  */
+.main-picture img{
+    clear: inherit;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+
+/* text content */
+
+.text-content{
+    text-align: center;
+    margin: 30px;
+    
+}
+
+p, h3{
+    text-align: center;
+
+}
+.text-content .anchor-button{
+    padding: 5px 20px 5px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid green;
+}
+.text-content .anchor-button:hover{
+    background-color: blue;
+}
+
+/* investors    */
+
+
+.investers img{
+    width: 75%;
+    
+}
+.investers{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.investers .card{
+    float: left;
+    margin: 1%;
+    text-align: center;
+    width: 15%;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* projects */
+.projects img{
+    width: 75%;
+    
+}
+.projects{
+    
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projects img{
+    float: left;
+    margin: .5%;
+    width: 20%;
+    
+}
+/* contractors */
+.contractors .div{
+    text-align: left;
+    justify-content: left;
+
+}
