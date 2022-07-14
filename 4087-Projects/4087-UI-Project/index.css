@@ -1,0 +1,341 @@
+*{
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+    color: #333;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+
+main{
+    padding: 10px 100px 100px 100px;
+    margin-bottom: 10px;
+}
+hr{
+    /* color: rgba(1, 1, 1,.1); */
+    color: red;
+}
+.m-15{
+    margin: 15px;
+}
+.mr-30{
+    margin-right: 30px;
+
+}
+.ml-15{
+    margin-left: 15px;
+
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.text-bold{
+    font-weight: bold;
+}
+
+
+.clear{
+    clear: both;
+}
+.align-left{
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+
+
+
+/* header */
+.header{
+
+    padding: 10px;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-left: 30px;
+}
+ .navigation{
+    width: auto;
+    float: right;
+
+
+}
+.nav-links{
+    padding: 50px;
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+.nav-links li{
+    float: left;
+    height: 100px;
+    padding: auto;
+
+    
+}
+.nav-links li a{
+
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    background-color: #5ffc05;
+    border-radius: 5px;
+    color: white;
+   
+}
+
+
+/*  */
+.main-picture{
+    clear: both;
+    width: auto;
+    background-image: url(./banner.jpg);
+    text-align: center;
+    padding: 120px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+
+
+    
+}
+
+/* text content */
+
+.text-content{
+    text-align: center;
+    margin: 30px;
+    
+}
+
+p, h3{
+    text-align: center;
+
+}
+.anchor-button{
+    padding: 5px 20px 5px 20px;
+    background-color: #8de70d;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.anchor-button:hover{
+    background-color: #5ffc05;
+}
+
+/* services    */
+
+
+
+    
+    
+
+.services{
+    margin: 0px 20px 0px 20px;
+    margin: auto;
+    text-align: center;
+}
+.services .card{
+    float: left;
+    margin: 1%;
+    text-align: left;
+    width: 23%;
+    
+    /* padding-right: 1%; */
+}
+.services .card img{
+    width: 100%;
+}
+
+.services .card-content{
+    text-align: left;
+    padding: 2%;
+}
+
+
+/* About */
+.about{
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.about-content h3{
+    font-size:xx-large;
+    font-weight: lighter;
+}
+.about img{
+    width:100%;
+    height: 100%;
+}
+.about-content{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+
+}
+.about-content a{
+border: 2px solid #333;
+text-decoration: none;
+padding: 15px;
+border-radius: 3px;
+margin-top: 30px;
+display: inline-block;
+
+}
+.about-content a:hover{
+background-color: #5ffc05;
+border-color: #5ffc05;
+    }
+.about-image{
+    float: right;
+    width: 30%;
+    
+    margin-right: 30px;
+}
+
+
+
+/* Question picture */
+.question-picture{
+    clear: both;
+    background-image: url(./qurestions-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    padding: 120px;
+    width: auto;
+    text-align: center;
+
+}
+
+.question-picture a{
+    background-color: rgb(253, 228, 0);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: none;
+    margin-top: 30px;
+    display: inline-block;
+    
+    }
+    .question-picture a:hover{
+    background-color: #5ffc05;
+    border-color: #5ffc05;
+        }
+
+
+
+/* contractors */
+.contractors{
+    text-align: center;
+}
+
+.contractors-table td,.contractors-table th{
+    padding: 5px 20px;
+}
+.contractors-table table{
+    width: 100%;
+}
+.contractors-table table thead tr{
+    background-color: gainsboro;
+    
+}
+
+/*  */
+
+.contact-us-form .form-description{
+    width: 40%;
+    margin-left:0px;
+}
+.contact-us-form .form-data{
+    width: 50%;
+    float: left;
+}
+.contact-us-form .form-data form input, .contact-us-form .form-data form select,.contact-us-form .form-data form textarea{
+    display: block;
+    width: 90%;
+    height: 40px;
+    border: 1px solid gainsboro;
+    margin: 5px 0px 20px 0px;
+    padding: 0px 0px;
+    outline: none;
+    border-radius: 6px;
+
+}
+.contact-us-form .form-data form input[type="checkbox"]{
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+.contact-us-form .form-data form input:focus,.contact-us-form .form-data form textarea:focus{
+    border: 2px solid rgb(28, 200, 243);
+    padding: 10px 10px;
+}
+.contact-us-form .form-data form input[type="submit"]{
+    width: 100px;
+}
+#about-you{
+    height: 175px;
+
+    display: block;
+}
+
+.contact-us-form .form-hint{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    margin-top:20px;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+.contact-us-form .form-hint img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+
+
+/* footer */
+.contact-us-map{
+    clear: both;
+    background-color: rgba(220, 220, 220,.5);
+    padding: 50px;
+}
+.contact-us-map a{
+    color: blue;
+}
+.copyright{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
