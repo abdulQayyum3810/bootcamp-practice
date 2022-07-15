@@ -14,7 +14,8 @@ function validateForm(){
         if(interest==="select") throw "Please select valid interest"
         if(!individual && !organization ) throw "please select individual or organization"
         if(!aboutyou) throw "Please write something about you"
-
+        var qs="summary.html?name="+name+"&email="+email+"&dob="+dob+"&interest="+interest+"&individual="+individual+"&organization="+organization+"&aboutinfo="+aboutyou
+    window.open(qs)
         
     }
     catch(err){
