@@ -16,7 +16,7 @@
 <body class="p-5">
     <div class="container">
 
-    <form class="form">
+    <form class="form" id="my-form">
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" class="form-control">
@@ -60,9 +60,17 @@
 
         </div>
 
-        <input type="submit" class="btn btn-success" value="Submit Form" >
+        
     </form>
-    <button class="btn btn-primary mb-5 mt-5" onclick=" return validateForm()">Validate Form</button>
+    <div class="row mt-5">
+        <div class="col-auto">
+            <button class="btn btn-primary" onclick=" return validateForm()">Validate Form</button>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-success" form="my-form">Submit form</button>
+        </div>
+    </div>
+    
 </div>
 
 </body>
